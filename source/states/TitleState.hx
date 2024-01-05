@@ -23,6 +23,10 @@ import states.MainMenuState;
 #if mobile
 import mobile.states.CopyState;
 #end
+	
+import flash.sensors.Accelerometer;
+import flash.events.AccelerometerEvent;
+import flxgif.FlxGifSprite;
 
 typedef TitleData =
 {
@@ -51,6 +55,12 @@ class TitleState extends MusicBeatState
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var ngSpr:FlxSprite;
+	
+	var gif:FlxGifSprite;
+	var acc:Accelerometer;
+	var accEvn:AccelerometerEvent;
+
+	var array:Array<Dynamic> = [gif, acc,  accEvn];
 	
 	var titleTextColors:Array<FlxColor> = [0xFF33FFFF, 0xFF3333CC];
 	var titleTextAlphas:Array<Float> = [1, .64];

@@ -40,11 +40,6 @@ import flixel.input.gamepad.FlxGamepadInputID;
 
 import haxe.Json;
 
-//Custom New
-import flxgif.FlxGifSprite;
-import flash.sensors.Accelerometer;
-import flash.events.AccelerometerEvent;
-
 class FunkinLua {
 	public static var Function_Stop:Dynamic = "##PSYCHLUA_FUNCTIONSTOP";
 	public static var Function_Continue:Dynamic = "##PSYCHLUA_FUNCTIONCONTINUE";

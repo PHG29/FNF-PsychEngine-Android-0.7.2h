@@ -59,8 +59,6 @@ class TitleState extends MusicBeatState
 	var gif:FlxGifSprite;
 	var acc:Accelerometer;
 	var accEvn:AccelerometerEvent;
-
-	var array:Array<Dynamic> = [gif, acc,  accEvn];
 	
 	var titleTextColors:Array<FlxColor> = [0xFF33FFFF, 0xFF3333CC];
 	var titleTextAlphas:Array<Float> = [1, .64];
@@ -85,6 +83,8 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+		var array:Array<Dynamic> = [gif, acc,  accEvn];
+		
 		Paths.clearStoredMemory();
 
 		#if android

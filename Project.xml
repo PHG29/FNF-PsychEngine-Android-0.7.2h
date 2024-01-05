@@ -95,6 +95,7 @@
 	<haxelib name="hxdiscord_rpc" if="desktop" unless="hl"/>
 	<haxelib name="flxanimate" unless="web"/>
 	<haxelib name="tjson"/>
+	<haxelib name="flxgif"/>
 
 	<!-- Android Specific-->
 	<haxelib name="extension-androidtools" if="android" />

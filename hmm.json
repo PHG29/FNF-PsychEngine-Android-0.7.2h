@@ -86,13 +86,6 @@
       "version": null
     },
     {
-      "name": "flxgif",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/flxgif.git"
-    },
-    {
       "name": "flixel-demos",
       "type": "haxelib",
       "version": null

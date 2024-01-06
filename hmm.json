@@ -84,11 +84,6 @@
       "name": "extension-androidtools",
       "type": "haxelib",
       "version": null
-    },
-    {
-      "name": "flixel-demos",
-      "type": "haxelib",
-      "version": null
     }
   ]
 }
